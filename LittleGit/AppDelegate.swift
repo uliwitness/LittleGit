@@ -15,13 +15,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		// Insert code here to initialize your application
+		let	folderStatus = GitFolderStatus()
+		let statuses = folderStatus.readStatus(NSURL(fileURLWithPath: "/Users/uli/Programming/Stacksmith"))
+		print(statuses)
 	}
 
 	func applicationWillTerminate(aNotification: NSNotification) {
 		// Insert code here to tear down your application
 	}
-
-
 }
 

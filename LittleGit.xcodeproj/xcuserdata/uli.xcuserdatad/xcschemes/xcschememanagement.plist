@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LittleGitFinderSyncExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>55DD40E11C13C7DC00E35713</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55DD40F51C13C7FC00E35713</key>
 		<dict>
 			<key>primary</key>
 			<true/>

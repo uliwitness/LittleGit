@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5576EB941C1457C500B5CCA2 /* Ignored.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576EB911C1457C500B5CCA2 /* Ignored.png */; };
+		5576EB951C1457C500B5CCA2 /* Modified.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576EB921C1457C500B5CCA2 /* Modified.png */; };
+		5576EB961C1457C500B5CCA2 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576EB931C1457C500B5CCA2 /* Unknown.png */; };
+		5576EB9B1C145B7400B5CCA2 /* Added.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576EB971C145B7400B5CCA2 /* Added.png */; };
+		5576EB9C1C145B7400B5CCA2 /* Copied.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576EB981C145B7400B5CCA2 /* Copied.png */; };
+		5576EB9D1C145B7400B5CCA2 /* Deleted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576EB991C145B7400B5CCA2 /* Deleted.png */; };
+		5576EB9E1C145B7400B5CCA2 /* Renamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576EB9A1C145B7400B5CCA2 /* Renamed.png */; };
 		55DD40E61C13C7DC00E35713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD40E51C13C7DC00E35713 /* AppDelegate.swift */; };
 		55DD40E81C13C7DC00E35713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DD40E71C13C7DC00E35713 /* Assets.xcassets */; };
 		55DD40EB1C13C7DC00E35713 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DD40E91C13C7DC00E35713 /* MainMenu.xib */; };
+		55DD40FB1C13C7FC00E35713 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD40FA1C13C7FC00E35713 /* FinderSync.swift */; };
+		55DD40FF1C13C7FC00E35713 /* LittleGitFinderSyncExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 55DD40F61C13C7FC00E35713 /* LittleGitFinderSyncExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55DD41051C13C8F700E35713 /* GitFolderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD41041C13C8F700E35713 /* GitFolderStatus.swift */; };
+		55DD41061C13CD8500E35713 /* GitFolderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD41041C13C8F700E35713 /* GitFolderStatus.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		55DD40FD1C13C7FC00E35713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DD40DA1C13C7DC00E35713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DD40F51C13C7FC00E35713;
+			remoteInfo = LittleGitFinderSyncExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55DD41031C13C7FC00E35713 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55DD40FF1C13C7FC00E35713 /* LittleGitFinderSyncExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5576EB911C1457C500B5CCA2 /* Ignored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ignored.png; path = Images/Ignored.png; sourceTree = SOURCE_ROOT; };
+		5576EB921C1457C500B5CCA2 /* Modified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Modified.png; path = Images/Modified.png; sourceTree = SOURCE_ROOT; };
+		5576EB931C1457C500B5CCA2 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Unknown.png; path = Images/Unknown.png; sourceTree = SOURCE_ROOT; };
+		5576EB971C145B7400B5CCA2 /* Added.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Added.png; path = Images/Added.png; sourceTree = SOURCE_ROOT; };
+		5576EB981C145B7400B5CCA2 /* Copied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Copied.png; path = Images/Copied.png; sourceTree = SOURCE_ROOT; };
+		5576EB991C145B7400B5CCA2 /* Deleted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Deleted.png; path = Images/Deleted.png; sourceTree = SOURCE_ROOT; };
+		5576EB9A1C145B7400B5CCA2 /* Renamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Renamed.png; path = Images/Renamed.png; sourceTree = SOURCE_ROOT; };
 		55DD40E21C13C7DC00E35713 /* LittleGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DD40E51C13C7DC00E35713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55DD40E71C13C7DC00E35713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DD40EA1C13C7DC00E35713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		55DD40EC1C13C7DC00E35713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DD40F61C13C7FC00E35713 /* LittleGitFinderSyncExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LittleGitFinderSyncExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DD40F91C13C7FC00E35713 /* LittleGitFinderSyncExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LittleGitFinderSyncExtension.entitlements; sourceTree = "<group>"; };
+		55DD40FA1C13C7FC00E35713 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		55DD40FC1C13C7FC00E35713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DD41041C13C8F700E35713 /* GitFolderStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitFolderStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		55DD40DF1C13C7DC00E35713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DD40F31C13C7FC00E35713 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				55DD40E41C13C7DC00E35713 /* LittleGit */,
+				55DD40F71C13C7FC00E35713 /* LittleGitFinderSyncExtension */,
 				55DD40E31C13C7DC00E35713 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				55DD40E21C13C7DC00E35713 /* LittleGit.app */,
+				55DD40F61C13C7FC00E35713 /* LittleGitFinderSyncExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +114,32 @@
 			path = LittleGit;
 			sourceTree = "<group>";
 		};
+		55DD40F71C13C7FC00E35713 /* LittleGitFinderSyncExtension */ = {
+			isa = PBXGroup;
+			children = (
+				55DD40FA1C13C7FC00E35713 /* FinderSync.swift */,
+				55DD41041C13C8F700E35713 /* GitFolderStatus.swift */,
+				55DD40FC1C13C7FC00E35713 /* Info.plist */,
+				5576EB911C1457C500B5CCA2 /* Ignored.png */,
+				5576EB921C1457C500B5CCA2 /* Modified.png */,
+				5576EB931C1457C500B5CCA2 /* Unknown.png */,
+				5576EB971C145B7400B5CCA2 /* Added.png */,
+				5576EB981C145B7400B5CCA2 /* Copied.png */,
+				5576EB991C145B7400B5CCA2 /* Deleted.png */,
+				5576EB9A1C145B7400B5CCA2 /* Renamed.png */,
+				55DD40F81C13C7FC00E35713 /* Supporting Files */,
+			);
+			path = LittleGitFinderSyncExtension;
+			sourceTree = "<group>";
+		};
+		55DD40F81C13C7FC00E35713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DD40F91C13C7FC00E35713 /* LittleGitFinderSyncExtension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -68,15 +150,34 @@
 				55DD40DE1C13C7DC00E35713 /* Sources */,
 				55DD40DF1C13C7DC00E35713 /* Frameworks */,
 				55DD40E01C13C7DC00E35713 /* Resources */,
+				55DD41031C13C7FC00E35713 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				55DD40FE1C13C7FC00E35713 /* PBXTargetDependency */,
 			);
 			name = LittleGit;
 			productName = LittleGit;
 			productReference = 55DD40E21C13C7DC00E35713 /* LittleGit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		55DD40F51C13C7FC00E35713 /* LittleGitFinderSyncExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DD41001C13C7FC00E35713 /* Build configuration list for PBXNativeTarget "LittleGitFinderSyncExtension" */;
+			buildPhases = (
+				55DD40F21C13C7FC00E35713 /* Sources */,
+				55DD40F31C13C7FC00E35713 /* Frameworks */,
+				55DD40F41C13C7FC00E35713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleGitFinderSyncExtension;
+			productName = LittleGitFinderSyncExtension;
+			productReference = 55DD40F61C13C7FC00E35713 /* LittleGitFinderSyncExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,6 +191,14 @@
 				TargetAttributes = {
 					55DD40E11C13C7DC00E35713 = {
 						CreatedOnToolsVersion = 7.1.1;
+					};
+					55DD40F51C13C7FC00E35713 = {
+						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -107,6 +216,7 @@
 			projectRoot = "";
 			targets = (
 				55DD40E11C13C7DC00E35713 /* LittleGit */,
+				55DD40F51C13C7FC00E35713 /* LittleGitFinderSyncExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +231,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55DD40F41C13C7FC00E35713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5576EB951C1457C500B5CCA2 /* Modified.png in Resources */,
+				5576EB941C1457C500B5CCA2 /* Ignored.png in Resources */,
+				5576EB9E1C145B7400B5CCA2 /* Renamed.png in Resources */,
+				5576EB9B1C145B7400B5CCA2 /* Added.png in Resources */,
+				5576EB9C1C145B7400B5CCA2 /* Copied.png in Resources */,
+				5576EB961C1457C500B5CCA2 /* Unknown.png in Resources */,
+				5576EB9D1C145B7400B5CCA2 /* Deleted.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -128,11 +252,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DD41061C13CD8500E35713 /* GitFolderStatus.swift in Sources */,
 				55DD40E61C13C7DC00E35713 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55DD40F21C13C7FC00E35713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DD41051C13C8F700E35713 /* GitFolderStatus.swift in Sources */,
+				55DD40FB1C13C7FC00E35713 /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DD40FE1C13C7FC00E35713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DD40F51C13C7FC00E35713 /* LittleGitFinderSyncExtension */;
+			targetProxy = 55DD40FD1C13C7FC00E35713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		55DD40E91C13C7DC00E35713 /* MainMenu.xib */ = {
@@ -231,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LittleGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.LittleGit;
@@ -243,10 +386,37 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LittleGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.LittleGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55DD41011C13C7FC00E35713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LittleGitFinderSyncExtension/LittleGitFinderSyncExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LittleGitFinderSyncExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.LittleGit.LittleGitFinderSyncExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55DD41021C13C7FC00E35713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LittleGitFinderSyncExtension/LittleGitFinderSyncExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LittleGitFinderSyncExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.LittleGit.LittleGitFinderSyncExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -269,6 +439,16 @@
 				55DD40F11C13C7DC00E35713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DD41001C13C7FC00E35713 /* Build configuration list for PBXNativeTarget "LittleGitFinderSyncExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DD41011C13C7FC00E35713 /* Debug */,
+				55DD41021C13C7FC00E35713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
